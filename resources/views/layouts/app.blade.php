@@ -18,7 +18,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <!--<link href="http://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css" rel="stylesheet">-->
 </head>
+
 
 <body class="sidebar-mini sidebar-closed sidebar-collapse" style="height: auto;">
     <div class="wrapper">
@@ -209,8 +211,10 @@
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}"></script>
-  
 
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.12.1/js/dataTables.bootstrap5.min.js"></script>
     <script>
         $(document).ready(function() {
             $('#table').DataTable();

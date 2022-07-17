@@ -89,7 +89,7 @@ class CartController extends Controller
             'address'=>$request->address,
         ]);
 
-        $carts = session::get('carts');
+        $carts = Session::get('carts');
         foreach ($carts as $cart){
             Order::create([
                 'image'=>$cart['image'],
@@ -103,6 +103,8 @@ class CartController extends Controller
         session::forget('carts');
 
         return redirect('/message');
+
+        //session::forget('carts');
 
 
     }

@@ -9,7 +9,7 @@
 <div class="alert alert-success">
 
 Your Order Confirmed.
-<a href="/detail"> <i class="fa-solid fa-hand-point-right"></i> Home</a>
+<a href="/"> <i class="fa-solid fa-hand-point-right"></i> Home</a>
 
 </div>
 

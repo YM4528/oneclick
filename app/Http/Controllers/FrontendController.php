@@ -11,6 +11,7 @@ class FrontendController extends Controller
     public function index(){
         $products = Product::take(6)->get();
         $services = Service::take(3)->get();
+        session()->forget('carts');
         return view('frondends.index',['products'=>$products, 'services'=>$services]);
     }
 

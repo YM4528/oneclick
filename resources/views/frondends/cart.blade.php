@@ -106,11 +106,6 @@
       <input name="name" type="text" class="form-control" id="name" placeholder="Enter User Name">
     </div>
 
-    <!--<div class="form-group">
-
-      <label for="email">Email</label>
-      <input name="email" type="text" class="form-control" id="email" placeholder="Enter email">
-    </div>-->
 
     <div class="form-group">
 
